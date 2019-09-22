@@ -25,3 +25,6 @@ coins:
     CannabisCoin:
         code: CANN
         url: http://cannabiscoin.net/
+    IndioCoin:
+        code: INI
+        url: https://indiocoin.net/
