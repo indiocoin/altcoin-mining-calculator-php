@@ -108,3 +108,10 @@ CannabisCoin:
             method: singlemarketdata
             marketid: 874
         json_key: return.markets.CANN.lasttradeprice
+IndioCoin:
+    UnNamed:
+        base_url: https://api.unnamed.exchange/
+        uri: vi/Public/Ticker
+        get_params:
+            market: INI_DOGE
+        json_key: close
