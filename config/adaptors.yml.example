@@ -76,6 +76,14 @@ CannabisCoin:
     port: 39347
     user: CannabisCoinrpc
     pass: Y0urSup3rSecretP4s5word
+IndioCoin:
+    type: \n00bsys0p\RpcAdaptor
+    subsidy_function: \n00bsys0p\IndioCoinSubsidyFunction
+    host: 127.0.0.1
+    port: 22559
+    user: indiorpc
+    pass: Y0urSup3rSecretP4s5word
+
 # Config settings for Abe based adaptors
 #Hirocoin:
 #    type: \n00bsys0p\AbeAdaptor
