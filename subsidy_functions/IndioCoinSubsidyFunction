@@ -1,0 +1,23 @@
+<?php
+namespace n00bsys0p;
+require_once(APP_DIR . '/subsidy_functions/interfaces/SubsidyFunctionInterface.php');
+/**
+ * Implementation of Dogecoin's subsidy function
+ */
+class IndiocoinSubsidyFunction implements SubsidyFunctionInterface
+{
+    /**
+     * Indiocoin subsidy function
+     *
+     * This is implemented as of 22-Sept-2019, so does not
+     * include any of the pre-400000 reward amounts.
+     *
+     * @param  integer $nHeight The block height for which to determine the reward
+     * @return float
+     */
+    public function getBlockValue($nHeight)
+    {
+        $nSubsidy = 18750; // Latest Block Reward
+        return $nSubsidy;
+    }
+}
